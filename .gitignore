@@ -1,0 +1,33 @@
+# 環境変数ファイル（機密情報を含む）
+.env
+.env.local
+.env.development
+.env.production
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+tmp/
+temp/
+
+# Go関連
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
